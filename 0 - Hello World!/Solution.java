@@ -6,7 +6,7 @@
 //
 
 // Package where the class is
-package Solutions;
+package solutions;
 
 // Class declaration
 public class Solution {
