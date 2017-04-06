@@ -14,7 +14,6 @@ var numberOfFibonnacci = Int(readLine()!)!
 
 // To more see: https://developer.apple.com/reference/swift/optional
 
-
 // Fibonacce
 while numberOfFibonnacci > 0 {
 
@@ -24,12 +23,9 @@ while numberOfFibonnacci > 0 {
     } else {
         numberToPrint = aux1 + aux2;
         aux1 = aux2;
-        aux2 = numberToPrint;
-        
+        aux2 = numberToPrint;        
     }
     
     print(numberToPrint)
     numberOfFibonnacci -= 1
 }
-
-
