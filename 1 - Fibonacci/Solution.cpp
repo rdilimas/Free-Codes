@@ -27,8 +27,7 @@ int main(int argc, const char * argv[]) {
     // Equivalent to int numberToPrint =-1;
     
     // Input of integer number which will be the number of prints of program
-    cin >> numbesOfFibonacci;
-    
+    cin >> numbesOfFibonacci;    
     
     // Fibonacci
     for ( ; numbesOfFibonacci > 0 ; numbesOfFibonacci--) {
